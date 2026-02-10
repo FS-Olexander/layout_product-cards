@@ -1,10 +1,13 @@
 @import 'variables';
 @import 'review';
 @import 'card';
-@import 'buy_button';
 
 body {
   margin: 0;
   font-family: $font-family;
   color: $main-color;
+}
+
+p {
+  margin: 0;
 }
