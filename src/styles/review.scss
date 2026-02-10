@@ -2,12 +2,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 12px;
+  margin-top: 16px;
 
   &-value {
     font-size: 10px;
     font-weight: 400;
     color: $main-color;
+    margin: 0;
   }
 }
 
