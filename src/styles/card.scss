@@ -1,0 +1,56 @@
+.card {
+  width: $card-width;
+  padding: $padding;
+  box-sizing: $box-sizing;
+  border: 1px solid #f3f3f3;
+
+  &__image {
+    background-image: url('../images/imac.jpeg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 16px;
+    margin-left: 4px;
+    width: 160px;
+    height: 134px;
+  }
+
+  .card__content {
+    width: 100%;
+  }
+
+  &__title {
+    margin: 0;
+    color: $main-color;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    margin-top: 40px;
+  }
+
+  &__description {
+    margin: 0;
+    margin-top: 4px;
+    color: $second-color;
+    font-size: 10px;
+    font-weight: 400;
+  }
+
+  &__price {
+      display: flex;
+      justify-content: space-between;
+    align-items: center;
+  }
+
+  &__price-label {
+    font-size: 12px;
+    font-weight: 400;
+    color: $second-color;
+  }
+
+  &__price-value {
+    font-size: 16px;
+    font-weight: 700;
+    color: $main-color;
+  }
+}
